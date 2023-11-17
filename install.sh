@@ -18,6 +18,7 @@ wget https://raw.githubusercontent.com/maximry2019/VerusCliMining/main/config.js
 wget https://raw.githubusercontent.com/maximry2019/VerusCliMining/main/config2.json -O ~/ccminer/config2.json
 wget https://raw.githubusercontent.com/maximry2019/VerusCliMining/main/start2.sh -O ~/ccminer/start2.sh
 chmod +x ~/ccminer/ccminer
+chmod +x ~/ccminer/start2.sh
 
 cat << EOF > ~/ccminer/start.sh
 #!/bin/sh
