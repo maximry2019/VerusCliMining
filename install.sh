@@ -18,6 +18,7 @@ wget https://raw.githubusercontent.com/maximry2019/VerusCliMining/main/config.js
 wget https://raw.githubusercontent.com/maximry2019/VerusCliMining/main/config2.json -O ~/ccminer/config2.json
 chmod +x ~/ccminer/ccminer
 
+cd ..
 mkdir ~/xmrig
 cd ~/xmrig
 
