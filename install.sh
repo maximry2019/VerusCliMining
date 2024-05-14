@@ -30,9 +30,16 @@ cat << EOF > ~/ccminer/start2.sh
 EOF
 chmod +x start2.sh
 
+cat << EOF > ~/ccminer/start3.sh
+#!/bin/sh
+~/ccminer/ccminer -c ~/ccminer/config3.json
+EOF
+chmod +x start3.sh
+
 echo "setup nearly complete."
 echo "Edit the config with \"nano ~/ccminer/config.json\""
 echo "Or edit the config2 with \"nano ~/ccminer/config2.json\""
+echo "Or edit the config2 with \"nano ~/ccminer/config3.json\""
 
 echo "go to line 15 and change your worker name"
 echo "use \"<CTRL>-x\" to exit and respond with"
@@ -41,3 +48,4 @@ echo "on the name"
 
 echo "start the miner with \"cd ~/ccminer; ./start.sh\"."
 echo "or start the miner with \"cd ~/ccminer; ./start2.sh\"."
+echo "or start the miner with \"cd ~/ccminer; ./start3.sh\"."
