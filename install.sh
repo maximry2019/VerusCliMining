@@ -40,7 +40,7 @@ chmod +x start3.sh
 echo "setup nearly complete."
 echo "Edit the config with \"nano ~/ccminer/config.json\""
 echo "Or edit the config2 with \"nano ~/ccminer/config2.json\""
-echo "Or edit the config2 with \"nano ~/ccminer/config3.json\""
+echo "Or edit the config3 with \"nano ~/ccminer/config3.json\""
 
 echo "go to line 15 and change your worker name"
 echo "use \"<CTRL>-x\" to exit and respond with"
