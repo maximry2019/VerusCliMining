@@ -13,7 +13,7 @@ GITHUB_DOWNLOAD_NAME=$(echo $GITHUB_RELEASE_JSON | jq -r ".[0].assets | .[] | .n
 
 echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 
-mv ccminer ccminer-old
+
 wget ${GITHUB_DOWNLOAD_URL} -O ~/ccminer/ccminer
 chmod +x ~/ccminer/ccminer
 
